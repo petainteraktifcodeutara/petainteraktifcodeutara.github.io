@@ -18,12 +18,11 @@ body {
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
+  <div class="w3-bar w3-black w3-card" >
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Beranda</a>
+    <a href="Peta Interaktif Bencana.html" class="w3-bar-item w3-button w3-padding-large " style="margin-left: 50px">Beranda</a>
     <a href="#Latar Belakang" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Latar Belakang</a>
     <a href="#Tujuan" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tujuan</a>
-       <a href="#Galeri" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Galeri</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="Lainnya">Peta Interaktif<i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -43,7 +42,8 @@ body {
           <a href="Peta Risiko Banjir.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Risiko Bencana Banjir</a>
         </div>
       </div>
-          <div class="w3-display-container w3-display-topright">
+      <a href="#Galeri" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Galeri</a>
+          <div class="w3-display-container w3-display-topleft">
           <img src="Lambang UGM.png" style="width:45px;height:45px; margin-right:20px;">
         </div>
     </div>
@@ -51,97 +51,105 @@ body {
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-center" style="margin-top: 46px">
   <a href="#Latar Belakang" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Latar Belakang</a>
   <a href="#Tujuan" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tujuan</a>
   <a href="Peta Tata Guna Lahan.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Tata Guna Lahan</a>
   <a href="Peta Topografi.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Topografi</a>
   <a href="Peta Risiko Longsor.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Risiko Bencana Tanah Longsor</a>
   <a href="Peta Risiko Banjir.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Risiko Bencana Banjir</a>
-  <a href="#Kontak" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Cetak</a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-padding-large w3-button" title="Lainnya">Peta Cetak <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="Peta Ortofoto.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Ortofoto</a>
+      <a href="Peta Kerawanan Longsor.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Kerawanan Bencana Tanah Longsor</a>
+      <a href="Peta Risiko Longsor.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Risiko Bencana Tanah Longsor</a>
+      <a href="Peta Kerawanan Banjir.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Kerawanan Bencana Banjir</a> 
+      <a href="Peta Risiko Banjir.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Risiko Bencana Banjir</a>
+    </div>
+  </div>
   <a href="#Galeri" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Galeri</a>
 </div>
  <!-- Header -->
  <div class="w3-container boxs" style="margin-top:70px; text-align: center; background-color: rgba(201, 207, 235, 0.966);" id="showcase">
-  <h1 class="w3-xxxlarge"><b>Mitigasi Bencana Banjir dan Tanah Longsor Tebing Sungai Wilayah Permukiman Padat Penduduk Studi Kasus Kawasan Code Utara</b></h1>
+  <h1 class="w3-jumbo"><b>Mitigasi Bencana Banjir dan Tanah Longsor Tebing Sungai Wilayah Permukiman Padat Penduduk Studi Kasus Kawasan Code Utara</b></h1>
   </div>
 
   <!-- The Latar Belakang Section -->
-  <div class=" w3-content w3-center w3-padding-64" style="max-width:1500px" id="Latar Belakang" >
-     <h2 class="w3-xxxlarge">Latar Belakang</h2>
+  <div class=" w3-content w3-center w3-padding-32" style="max-width:1500px" id="Latar Belakang" >
+     <h2 class="w3-xxlarge" >Latar Belakang</h2>
        <p class="w3-justify w3-xlarge"  >Sungai Code melintasi kawasan permukiman padat penduduk di Kota Yogyakarta yang rentan terdapampak bencana yang dapat terjadi di wilayah sungai tersebut. Akibat permasalahan yang komplek di daerah aliran sungai Code tersebut, telah terjadi efek negatif seperti pencemaran air sungai, penyempitan badan sungai, tertutupnya mata air akibat timbunan dan padatan untuk pemukiman, tingginya erosi, gerusan dan bahkan longsor. Permasalahan lain yang dapat timbul adalah persoalan social dan ekonomi di masyarakat sekitar.</p>
-    <div class="w3-row w3-padding-32"></div>
+    <div class="w3-row"></div>
   </div>
     
 
   <!-- Tujuan Section -->
-  <div class="w3-black" id="Tujuan">
-    <div class="w3-content w3-padding-64" style="max-width:1500px">
-      <h2 class="w3-xxxlarge w3-center">Tujuan</h2>
-      <p class="w3-opacity w3-justify w3-xlarge"><i>1. Meningkatkan kesadaran, kewaspadaan dan pengetahuan masyarakat dalam menghadapi dan mengurangi resiko bencana banjir dan tanah longsor pada daerah terdampak khususnya sepanjang tebing dikedua sisi sungai Code Utara, Kota Yogyakarta.</i>
-      <p class="w3-opacity w3-justify w3-xlarge"><i>2. Bersama melibatkan partisipasi aktif masyarakat khususnya yang tinggal di kawasan sungai Code Utara dalam menanggulangi dan mengurangi resiko bencana banjir dan tanah longsor.</i> 
-      <p class="w3-opacity w3-justify w3-xlarge"><i>3. Memberikan rekomendasi dan sara berdasarkan analisis, pemetaan dan bukti ilmiah kepada masyarakat, pemangku kepentingan dan pemerintah setempat sebagai landasan atau pedoman dalam perencanaan pembangunan dan pengembangan kawasan pada penduduk disepanjang tebing sungai Code Utara yang berbasis pada pengurangan resiko dan mitigasi bencana banjir dan tanah longsor.</p><br></i> 
+  <div class="w3-black w3-padding-32" id="Tujuan">
+    <div class="w3-content" style="max-width:1500px">
+      <h2 class="w3-center w3-xxlarge" >Tujuan</h2>
+      <p class="w3-opacity w3-justify w3-xlarge" ><i>1. Meningkatkan kesadaran, kewaspadaan dan pengetahuan masyarakat dalam menghadapi dan mengurangi resiko bencana banjir dan tanah longsor pada daerah terdampak khususnya sepanjang tebing dikedua sisi sungai Code Utara, Kota Yogyakarta.</i>
+      <p class="w3-opacity w3-justify w3-xlarge" ><i>2. Bersama melibatkan partisipasi aktif masyarakat khususnya yang tinggal di kawasan sungai Code Utara dalam menanggulangi dan mengurangi resiko bencana banjir dan tanah longsor.</i> 
+      <p class="w3-opacity w3-justify w3-xlarge" ><i>3. Memberikan rekomendasi dan sara berdasarkan analisis, pemetaan dan bukti ilmiah kepada masyarakat, pemangku kepentingan dan pemerintah setempat sebagai landasan atau pedoman dalam perencanaan pembangunan dan pengembangan kawasan pada penduduk disepanjang tebing sungai Code Utara yang berbasis pada pengurangan resiko dan mitigasi bencana banjir dan tanah longsor.</p><br></i> 
     </div>
   </div>
 
 
 <!-- Automatic Slideshow Images -->
 <div class="w3-container w3-content w3-center" style="max-width:400px" id="Galeri">
-<h1 class="w3-xxxlarge w3-center"><b>Galeri</b></h1>
+<h1 class=" w3-center w3-xxlarge" ><b>Galeri</b></h1>
 </div>
 <div class="mySlides w3-display-container w3-center">
-  <img src="1.jpg" style="width:30%">
- </div>
+  <img src="1.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-  <img src="2.jpg" style="width:30%">
+  <img src="2.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-  <img src="3.jpg" style="width:30%">
+  <img src="3.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="4.jpg" style="width:30%">
+<img src="4.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="5.jpg" style="width:30%">
+<img src="5.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="6.jpg" style="width:30%">
+<img src="6.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="7.jpg" style="width:30%">
+<img src="7.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="8.jpg" style="width:30%">
+<img src="8.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="9.jpg" style="width:30%">
+<img src="9.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="10.jpg" style="width:30%">
+<img src="10.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="11.jpg" style="width:30%">
+<img src="11.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="12.jpg" style="width:30%">
+<img src="12.jpg" style="width:50%">
 </div>
 
 <div class="mySlides w3-display-container w3-center">
-<img src="13.jpg" style="width:30%">
+<img src="13.jpg" style="width:50%">
 </div>
-  
+<div class="w3-padding-32"></div> 
   
 <!-- End Page Content -->
 
