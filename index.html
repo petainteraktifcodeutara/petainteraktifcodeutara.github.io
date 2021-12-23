@@ -18,7 +18,7 @@ body {
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card" >
+  <div class="w3-bar w3-black " >
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="Peta Interaktif Bencana.html" class="w3-bar-item w3-button w3-padding-large " style="margin-left: 50px">Beranda</a>
     <a href="#Latar Belakang" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Latar Belakang</a>
@@ -34,13 +34,14 @@ body {
       </div>
     </div>
       <div class="w3-dropdown-hover w3-hide-small">
-        <button class="w3-padding-large w3-button" title="Lainnya">Peta Cetak <i class="fa fa-caret-down"></i></button>     
+        <button class="w3-padding-large w3-button" title="Lainnya">Dokumen <i class="fa fa-caret-down"></i></button>     
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
           <a href="Peta Ortofoto.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Ortofoto</a>
           <a href="Peta Kerawanan Longsor.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Kerawanan Bencana Tanah Longsor</a>
           <a href="Peta Risiko Longsor.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Risiko Bencana Tanah Longsor</a>
           <a href="Peta Kerawanan Banjir.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Kerawanan Bencana Banjir</a> 
           <a href="Peta Risiko Banjir.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Peta Risiko Bencana Banjir</a>
+          <a href="Poster PPM Kolaborasi.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Poster</a>
         </div>
       </div>
       <a href="Galeri.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Galeri</a>
@@ -52,20 +53,21 @@ body {
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-center" style="margin-top: 46px">
-  <a href="#Latar Belakang" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Latar Belakang</a>
-  <a href="#Tujuan" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Petunjuk Penggunaan Peta</a>
-  <a href="#Petunjuk Penggunaan Peta" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tujuan</a>
-  <a href="Peta Tata Guna Lahan.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Interaktif Tata Guna Lahan</a>
-  <a href="Peta Topografi.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Interaktif Topografi</a>
-  <a href="Peta Risiko Longsor.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Interaktif Risiko Bencana Tanah Longsor</a>
-  <a href="Peta Risiko Banjir.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Peta Interaktif Risiko Bencana Banjir</a>
-  <a href="Peta Ortofoto.pdf" class="w3-bar-item w3-button w3-padding-large "onclick="myFunction()">Peta Cetak Ortofoto</a>
-  <a href="Peta Kerawanan Longsor.pdf" class="w3-bar-item w3-button w3-padding-large "onclick="myFunction()">Peta Cetak Kerawanan Bencana Tanah Longsor</a>
-  <a href="Peta Risiko Longsor.pdf" class="w3-bar-item w3-button w3-padding-large "onclick="myFunction()">Peta Cetak Risiko Bencana Tanah Longsor</a>
-  <a href="Peta Kerawanan Banjir.pdf" class="w3-bar-item w3-button w3-padding-large "onclick="myFunction()">Peta Cetak Kerawanan Bencana Banjir</a> 
-  <a href="Peta Risiko Banjir.pdf" class="w3-bar-item w3-button w3-padding-large "onclick="myFunction()">Peta Cetak Risiko Bencana Banjir</a>
-  <a href="Galeri.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Galeri</a>
+<div class="w3-sidebar w3-black w3-bar-block w3-card w3-animate-left" style="margin-top: -25px; display:none"  id="mySidebar">
+  <a href="#Latar Belakang" class="w3-bar-item w3-button w3-padding-large w3-left" onclick="myFunction()">Latar Belakang</a>
+  <a href="#Tujuan" class="w3-bar-item w3-button w3-padding-large w3-left" onclick="myFunction()">Petunjuk Penggunaan Peta</a>
+  <a href="#Petunjuk Penggunaan Peta" class="w3-bar-item w3-button w3-padding-large w3-left" onclick="myFunction()">Tujuan</a>
+  <a href="Peta Tata Guna Lahan.html" class="w3-bar-item w3-button w3-padding-large w3-left" onclick="myFunction()">Peta Interaktif Tata Guna Lahan</a>
+  <a href="Peta Topografi.html" class="w3-bar-item w3-button w3-padding-large w3-left" onclick="myFunction()">Peta Interaktif Topografi</a>
+  <a href="Peta Risiko Longsor.html" class="w3-bar-item w3-button w3-padding-large w3-left" onclick="myFunction()">Peta Interaktif Risiko Bencana Tanah Longsor</a>
+  <a href="Peta Risiko Banjir.html" class="w3-bar-item w3-button w3-padding-large w3-left" onclick="myFunction()">Peta Interaktif Risiko Bencana Banjir</a>
+  <a href="Peta Ortofoto.pdf" class="w3-bar-item w3-button w3-padding-large w3-left"onclick="myFunction()">Peta Cetak Ortofoto</a>
+  <a href="Peta Kerawanan Longsor.pdf" class="w3-bar-item w3-button w3-padding-large w3-left"onclick="myFunction()">Peta Cetak Kerawanan Bencana Tanah Longsor</a>
+  <a href="Peta Risiko Longsor.pdf" class="w3-bar-item w3-button w3-padding-large w3-left"onclick="myFunction()">Peta Cetak Risiko Bencana Tanah Longsor</a>
+  <a href="Peta Kerawanan Banjir.pdf" class="w3-bar-item w3-button w3-padding-large w3-left"onclick="myFunction()">Peta Cetak Kerawanan Bencana Banjir</a> 
+  <a href="Peta Risiko Banjir.pdf" class="w3-bar-item w3-button w3-padding-large w3-left"onclick="myFunction()">Peta Cetak Risiko Bencana Banjir</a>
+  <a href="Poster PPM Kolaborasi.pdf" class="w3-bar-item w3-button w3-padding-large w3-left"onclick="myFunction()">Poster</a>
+  <a href="Galeri.html" class="w3-bar-item w3-button w3-padding-large w3-left" onclick="myFunction()">Galeri</a>
 </div>
  <!-- Header -->
  <div class="w3-container boxs" style="margin-top:70px; text-align: center; background-color: rgba(201, 207, 235, 0.966);" id="showcase">
@@ -84,9 +86,9 @@ body {
   <div class="w3-black w3-padding-32" id="Tujuan">
     <div class="w3-content" style="max-width:1500px">
       <h2 class="w3-center "style="font-size: 2vw;" >Tujuan</h2>
-      <p class="w3-opacity w3-justify" style="font-size: 2vw;" ><i>1. Meningkatkan kesadaran, kewaspadaan dan pengetahuan masyarakat dalam menghadapi dan mengurangi resiko bencana banjir dan tanah longsor pada daerah terdampak khususnya sepanjang tebing dikedua sisi sungai Code Utara, Kota Yogyakarta.</i>
-      <p class="w3-opacity w3-justify" style="font-size: 2vw;"><i>2. Bersama melibatkan partisipasi aktif masyarakat khususnya yang tinggal di kawasan sungai Code Utara dalam menanggulangi dan mengurangi resiko bencana banjir dan tanah longsor.</i> 
-      <p class="w3-opacity w3-justify" style="font-size: 2vw;"><i>3. Memberikan rekomendasi dan sara berdasarkan analisis, pemetaan dan bukti ilmiah kepada masyarakat, pemangku kepentingan dan pemerintah setempat sebagai landasan atau pedoman dalam perencanaan pembangunan dan pengembangan kawasan pada penduduk disepanjang tebing sungai Code Utara yang berbasis pada pengurangan resiko dan mitigasi bencana banjir dan tanah longsor.</p><br></i> 
+      <p class="w3-opacity w3-justify" style="font-size: 2vw;"><i>  Meningkatkan kesadaran, kewaspadaan dan pengetahuan masyarakat dalam menghadapi dan mengurangi resiko bencana banjir dan tanah longsor pada daerah terdampak khususnya sepanjang tebing dikedua sisi sungai Code Utara, Kota Yogyakarta.</i>
+      <p class="w3-opacity w3-justify" style="font-size: 2vw;"><i>  Bersama melibatkan partisipasi aktif masyarakat khususnya yang tinggal di kawasan sungai Code Utara dalam menanggulangi dan mengurangi resiko bencana banjir dan tanah longsor.</i> 
+      <p class="w3-opacity w3-justify" style="font-size: 2vw;"><i>  Memberikan rekomendasi dan saran berdasarkan analisis, pemetaan dan bukti ilmiah kepada masyarakat, pemangku kepentingan dan pemerintah setempat sebagai landasan atau pedoman dalam perencanaan pembangunan dan pengembangan kawasan pada penduduk disepanjang tebing sungai Code Utara yang berbasis pada pengurangan resiko dan mitigasi bencana banjir dan tanah longsor.</p><br></i> 
     </div>
   </div>
 
@@ -98,7 +100,7 @@ body {
         <img src="Petunjuk Penggunaan.png" style="width:100%">
       </div>
       <p class="w3-opacity w3-justify" style="font-size: 1vw;"><i>1. Legenda  : berisi informasi terkait atribut yang terdapat pada peta</i>
-      <p class="w3-opacity w3-justify" style="font-size: 1vw;"><i>2. Zoom In  : Memperbesar skala peta agar atribut pada peta terlihat lebih jelas</i>
+      <p class="w3-opacity w3-justify" style="font-size: 1vw;"><i>2. Zoom In  : Memperbesar skala peta agar atribut pada peta terlihat jelas</i>
       <p class="w3-opacity w3-justify" style="font-size: 1vw;"><i>3. Home     : Kembali ke tampilan awal</i>  
       <p class="w3-opacity w3-justify" style="font-size: 1vw;"><i>4. Zoom Out : Memperkecil skala peta. </p><br></i> 
     </div>
@@ -129,7 +131,7 @@ function carousel() {
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
-  var x = document.getElementById("navDemo");
+  var x = document.getElementById("mySidebar");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
   } else { 
@@ -137,6 +139,17 @@ function myFunction() {
   }
 }
 
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
 // When the user clicks anywhere outside of the modal, close it
 var modal = document.getElementById('ticketModal');
 window.onclick = function(event) {
